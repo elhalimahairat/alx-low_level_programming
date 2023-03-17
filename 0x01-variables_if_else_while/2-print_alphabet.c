@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-int i = 0 ;
+int i = 0;
 char x[] = "abcdefghijklmnopqrstuvwxyz";
-while (i < 26) {
+while (i < 26)
+{
 putchar(x[i]);
-i ++;
+i++;
 
 }
 putchar('\n');
