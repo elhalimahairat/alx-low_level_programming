@@ -13,7 +13,7 @@ char z;
 printf("Size of a char: %u byte(s)\n", (unsigned int)sizeof(z));
 printf("Size of an int: %u byte(s)\n", (unsigned int)sizeof(i));
 printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(i));
-printf("Size of a long long int: %llu byte(s)\n", (unsigned long long )sizeof(i));
+printf("Size of a long long int: %llu byte(s)\n", (unsigned long long)sizeof(i));
 printf("Size of a float: %u byte(s)\n", (unsigned int)sizeof(l));
 
 return (0);
