@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-void main(void)
+int main(void)
 {
 putchar('a');
 putchar('b');
@@ -33,4 +33,5 @@ putchar('x');
 putchar('y');
 putchar('z');
 putchar('\n');
+return (0);
 }
