@@ -7,8 +7,8 @@
 int main(void)
 {
 int i = 0;
-char x[] = "abcdefghijklmnopqrstuvwxyz";
-while (i < 26)
+char x[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+while (i < 52)
 {
 putchar(x[i]);
 i++;
