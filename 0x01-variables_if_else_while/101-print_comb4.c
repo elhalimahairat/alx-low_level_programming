@@ -15,9 +15,9 @@ k = (i / 10) % 10; /* tens */
 l = i % 100; /* units */
 if (j < k && k < l)
 {
-putchar(l + '0');
-putchar(k + '0');
-putchar(j + '0');
+putchar((char)l + '0');
+putchar((char)k + '0');
+putchar((char)j + '0');
 if (i < 789)
 {
 putchar(',');
