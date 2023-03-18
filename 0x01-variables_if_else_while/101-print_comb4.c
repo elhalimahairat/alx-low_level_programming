@@ -5,6 +5,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+{
 int i, j, k, l;
 i = 0;
 while (i < 1000)
