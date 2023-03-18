@@ -5,11 +5,25 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+int i, j, k, l;
+i = 0;
+while (i < 1000)
 {
-char h = '0', t = '1', u = '2';
-while ((h <= '7') || (t <= '8') || (u <= '9')) {
-printf ("%c%c%c, ", h, t, u);
-u != '9' ? ++u : (t != '8' ? (++t, u = t + 1) : (++h, t = h + 1, u = t + 1));
+j = i / 100; /* hundreds */
+k = (i / 10) % 10; /* tens */
+l = i % 100; /* units */
+if (j < k && k < l)
+{
+putchar(l + '0');
+putchar(k + '0');
+putchar(j + '0');
+if (i < 789)
+{
+putchar(',');
+putchar(' ');
+}
+}
+i++;
 }
 putchar('\n');
 return (0);
