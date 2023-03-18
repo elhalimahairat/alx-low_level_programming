@@ -6,14 +6,17 @@
  */
 int main(void)
 {
-int i = 0;
-char x[] = "0, 1, 2, 3, 4, 5, 6, 7, 8, 9";
-while (i < 28)
+int x = 0;
+while (x < 10)
 {
-putchar(x[i]);
-i++;
-
+putchar(x + '0');
+if (x < 9)
+{
+putchar(',');
+putchar(' ');
 }
-putchar('\n');
+x++;
+}
+    putchar('\n');
 return (0);
 }
