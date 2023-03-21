@@ -1,10 +1,10 @@
-#include "main.h"
+#include "irat.h"
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
-int main(int void)
+int main(void)
 {
 print_alphabet();
 return (0);
