@@ -1,3 +1,4 @@
+#include<stdio.h>
 #ifndef main
 #define main
 void print__putchar();
