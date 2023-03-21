@@ -14,7 +14,7 @@ void Fibonacci(void){
 int i = 1;
 int j = 2;
 int m= i + j;
-while(m <= 12586269025){
+while(m >= 12586269025){
 printf("%d,\t", i);
 printf("%d,\t", j);
 printf("%d,\t\n", m);
