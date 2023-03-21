@@ -1,4 +1,4 @@
-#include "main.h"
+#include "irat.h"
 /**
  * main - check the code
  *
