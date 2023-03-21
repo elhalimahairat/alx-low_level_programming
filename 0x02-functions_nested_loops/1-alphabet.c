@@ -7,7 +7,7 @@
 void Fibonacci();
 int main(void)
 {
-print_alphabet();
+Fibonacci();
 return (0);
 }
 void Fibonacci(void){
@@ -22,5 +22,5 @@ i = j + m;
 j = m + i;
 m = i + j;
 }
-return (0);
+return;
 }
