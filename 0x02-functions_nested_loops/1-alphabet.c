@@ -5,7 +5,7 @@ int x;
  *
  * Return: Always 0.
  */
-int main(&x,void)
+int main(void)
 {
 print_alphabet();
 return (0);
