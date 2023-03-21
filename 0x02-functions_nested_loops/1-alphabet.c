@@ -4,12 +4,23 @@
  *
  * Return: Always 0.
  */
-void print_alphabet(void);
+void Fibonacci();
 int main(void)
 {
 print_alphabet();
 return (0);
 }
-void print_alphabet(void){
-printf("abcdefghijklmnopqrstuvwxyz\n");
+void Fibonacci(void){
+int i = 1;
+int j = 2;
+int m= i + j;
+while(m <= 12586269025){
+printf("%d,\t", i);
+printf("%d,\t", j);
+printf("%d,\t\n", m);
+i = j + m;
+j = m + i;
+m = i + j;
+}
+return (0);
 }
