@@ -14,13 +14,15 @@ void Fibonacci(void){
 int i = 1;
 int j = 2;
 int m= 3;
-while(m > 12586269025){
+int h =  1;
+do{
 printf("%d,\t", i);
 printf("%d,\t", j);
 printf("%d,\t\n", m);
 i = j + m;
 j = m + i;
 m = i + j;
-}
+h =  12586269025;
+}while(m > h);
 return;
 }
