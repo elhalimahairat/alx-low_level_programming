@@ -16,13 +16,13 @@ long j = 2;
 long m= 3;
 long h =  1;
 do{
-printf("%ld,\t", i);
-printf("%ld,\t", j);
-printf("%ld,\t\n", m);
+printf("%ld, ", i);
+printf("%ld, ", j);
+printf("%ld, ", m);
 i = j + m;
 j = m + i;
 m = i + j;
-h =  12586269025;
-}while(m > h);
+h =  20365011074;
+}while(m < h);
 return;
 }
