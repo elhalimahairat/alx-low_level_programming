@@ -21,7 +21,7 @@ long i = 1;
 long j = 2;
 long l = 3;
 long m = i + j;
-while (l <= 99)
+while (l <= 93)
 {
 long li = i;
 long lin = j;
@@ -82,6 +82,43 @@ j = -j;
 if (m < 0)
 m = -m;
 l += 3;
+}
+long li = i;
+long lin = j;
+long lina = m;
+while (l <= 99)
+{
+if (li >= 0)
+printf("%ld, ", li);
+else
+printf("%ld, ", -li);
+if (lin >= 0)
+{
+if (l < 98)
+printf("%ld, ", lin);
+else if (l == 98)
+printf("%ld", lin);
+}
+else
+{
+if (l < 98)
+printf("%ld, ", -lin);
+else if (l == 98)
+printf("%ld", -lin);
+}
+if (lina >= 0)
+{
+if (l < 99)
+printf("%ld, ", lina);
+}
+else
+{
+if (l < 99)
+printf("%ld, ", -lina);
+li = lin + lina;
+lin = li + lina;
+lina = li + lin;
+  l += 3;
 }
 printf("\n");
 return;
