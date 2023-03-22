@@ -61,8 +61,26 @@ j = -j;
 if (m < 0)
 m = -m;
 i = m + j;
+if (i < 0)
+i = -i;
+if (j < 0)
+j = -j;
+if (m < 0)
+m = -m;
 j = m + i;
+if (i < 0)
+i = -i;
+if (j < 0)
+j = -j;
+if (m < 0)
+m = -m;
 m = i + j;
+if (i < 0)
+i = -i;
+if (j < 0)
+j = -j;
+if (m < 0)
+m = -m;
 l += 3;
 }
 printf("\n");
