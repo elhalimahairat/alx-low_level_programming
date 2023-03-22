@@ -57,9 +57,9 @@ printf("%ld, ", -lina);
 if (i < 0)
 i = -i;
 if (j < 0)
-i = -j;
+j = -j;
 if (m < 0)
-i = -m;
+m = -m;
 i = m + j;
 j = m + i;
 m = i + j;
