@@ -21,7 +21,7 @@ long i = 1;
 long j = 2;
 long l = 3;
 long m = i + j;
-while (l <= 99)
+while (l <= 93)
 {
 long li = i;
 long lin = j;
