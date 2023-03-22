@@ -4,10 +4,10 @@
  *
  * Return: Always 0.
  */
-void Fibonacci(void);
+void Fibonacci_1(void);
 int main(void)
 {
-Fibonacci();
+Fibonacci_1();
 return (0);
 }
 /**
@@ -15,27 +15,24 @@ return (0);
  *
  * end in 50.
  */
-void Fibonacci(void)
+void Fibonacci_1(void)
 {
+int sum = 0;
 long i = 1;
 long j = 2;
-long m = 3;
-long h =  1;
-long l = 32951280099;
-long k = 20365011074;
+lomg l = 4000000;  
+long m = i + j;
 do {
-printf("%ld, ", i);
-if (j != k)
-printf("%ld, ", j);
-else
-printf("%ld", j);
-if (m < l)
-printf("%ld, ", m);
+if ((i % 2) = 0)
+sum += i;  
+if ((j % 2))
+sum += j;  
+if ((m % 2))
+sum += m;
 i = j + m;
 j = m + i;
 m = i + j;
-h = 20365011074;
-} while (i <= h);
-printf("\n");
+} while ((i < l) && (j < l) && (m < l));
+printf("%ld\n", sum);
 return;
 }
