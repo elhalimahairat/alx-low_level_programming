@@ -83,16 +83,19 @@ if (m < 0)
 m = -m;
 l += 3;
 }
-long a = i;
-long s = j;
-long d = m;
+long a;
+a = i;
+long s;
+s = j;
+long d;
+d = m;
 while (l <= 99)
 {
 if (a >= 0)
 printf("%ld, ", a);
 else
 printf("%ld, ", -a);
-if (lin >= 0)
+if (s >= 0)
 {
 if (l < 98)
 printf("%ld, ", s);
@@ -106,7 +109,7 @@ printf("%ld, ", -s);
 else if (l == 98)
 printf("%ld", -s);
 }
-if (lina >= 0)
+if (d >= 0)
 {
 if (l < 99)
 printf("%ld, ", d);
