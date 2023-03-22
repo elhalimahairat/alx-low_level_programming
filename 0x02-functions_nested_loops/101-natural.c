@@ -10,7 +10,11 @@ int main(void)
 mul_5_3();
 return (0);
 }
-
+/**
+ * mul_5_3 - check the code.
+ *
+ * Return: Always < 1024.
+ */
 void mul_5_3(void)
 {
 int n = 0;
