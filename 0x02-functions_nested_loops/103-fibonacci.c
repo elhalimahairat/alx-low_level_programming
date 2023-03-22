@@ -20,19 +20,19 @@ void Fibonacci_1(void)
 long sum = 0;
 long i = 1;
 long j = 2;
-long l = 4000000;  
+long l = 4000000;
 long m = i + j;
 do {
 if ((i % 2) == 0)
-sum += i;  
+sum += i;
 if ((j % 2) == 0)
-sum += j;  
+sum += j;
 if ((m % 2) == 0)
 sum += m;
 i = j + m;
 j = m + i;
 m = i + j;
-} while ((i < l) && (j < l) && (m < l));
+} while ((i < l) || (j < l) || (m < l));
 printf("%ld\n", sum);
 return;
 }
