@@ -15,9 +15,11 @@ long i = 1;
 long j = 2;
 long m= 3;
 long h =  1;
+long l = 32951280099;
 do{
 printf("%ld, ", i);
 printf("%ld, ", j);
+if(m < l )
 printf("%ld, ", m);
 i = j + m;
 j = m + i;
