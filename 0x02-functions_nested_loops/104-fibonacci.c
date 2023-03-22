@@ -4,35 +4,37 @@
  *
  * Return: Always 0.
  */
-void Fibonacci_1(void);
+void Fibonacci_2(void);
 int main(void)
 {
-Fibonacci_1();
+Fibonacci_2();
 return (0);
 }
 /**
- * Fibonacci_1 - check the code.
+ * Fibonacci_2 - check the code.
  *
  * end in 50.
  */
-void Fibonacci_1(void)
+void Fibonacci_2(void)
 {
-long sum = 0;
 long i = 1;
 long j = 2;
-long l = 4000000;
+long l = 0;
 long m = i + j;
-do {
-if ((i % 2) == 0)
-sum += i;
-if ((j % 2) == 0)
-sum += j;
-if ((m % 2) == 0)
-sum += m;
+while (l <= 99)
+{
+printf("%ld, ", i);
+if (l < 98)
+printf("%ld, ", j);
+else if (l == 98)
+printf("%ld", j);
+if (l < 99)
+printf("%ld, ", m);
 i = j + m;
 j = m + i;
 m = i + j;
-} while ((i < l) || (j < l) || (m < l));
-printf("%ld\n", sum);
+l += 3;
+}
+printf("\n");
 return;
 }
