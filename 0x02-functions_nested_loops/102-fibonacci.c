@@ -30,7 +30,7 @@ i = j + m;
 j = m + i;
 m = i + j;
 h = 20365011074;
-}while(i <= h);
+} while (i <= h);
 printf("\n");
 return;
 }
