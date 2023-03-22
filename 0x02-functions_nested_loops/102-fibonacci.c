@@ -10,6 +10,11 @@ int main(void)
 Fibonacci();
 return (0);
 }
+/**
+ * Fibonacci - check the code.
+ *
+ * end in 50.
+ */
 void Fibonacci(void)
 {
 long i = 1;
