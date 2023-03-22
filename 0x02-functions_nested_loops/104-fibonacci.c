@@ -19,7 +19,7 @@ void Fibonacci_2(void)
 {
 long i = 1;
 long j = 2;
-long l = 0;
+long l = i + j;
 long m = i + j;
 while (l <= 99)
 {
