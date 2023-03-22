@@ -23,7 +23,7 @@ i = j + m;
 j = m + i;
 m = i + j;
 h =  20365011074;
-}while(j <= h);
+}while(i <= h);
 printf("\n");
 return;
 }
