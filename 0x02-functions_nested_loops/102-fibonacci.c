@@ -16,14 +16,15 @@ long j = 2;
 long m= 3;
 long h =  1;
 long l = 32951280099;
-long k = 1258626;
+long k = 20365011074;
 do{
 printf("%ld, ", i);
+if(j != k);
 printf("%ld, ", j);
-if((m < l) && (m != k) )
+else
+printf("%ld", j);
+if(m < l )
 printf("%ld, ", m);
-else if(m == k)
-printf("%ld", m);
 i = j + m;
 j = m + i;
 m = i + j;
