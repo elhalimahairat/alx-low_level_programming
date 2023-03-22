@@ -23,13 +23,37 @@ long l = 0;
 long m = i + j;
 while (l <= 99)
 {
-printf("%ld, ", i);
+int li = i;
+int lin = j;
+int lina = m;
+if(li >= 0)
+printf("%ld, ", li);
+else
+printf("%ld, ", -li);
+if (lin >= 0)
+{
 if (l < 98)
-printf("%ld, ", j);
+printf("%ld, ", lin);
 else if (l == 98)
-printf("%ld", j);
+printf("%ld", lin);
+}
+else
+{
+if (l < 98)
+printf("%ld, ", -lin);
+else if (l == 98)
+printf("%ld", -lin)
+}
+if (lina >= 0)
+{
 if (l < 99)
-printf("%ld, ", m);
+printf("%ld, ", lina);
+}
+else
+{
+if (l < 99)
+printf("%ld, ", -lina);
+}
 i = j + m;
 j = m + i;
 m = i + j;
