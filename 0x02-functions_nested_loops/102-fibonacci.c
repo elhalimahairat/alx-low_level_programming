@@ -11,10 +11,10 @@ Fibonacci();
 return (0);
 }
 void Fibonacci(void){
-long long i = 1;
-long long j = 2;
-long long m= 3;
-long long h =  1;
+long i = 1;
+long j = 2;
+long m= 3;
+long h =  1;
 do{
 printf("%d,\t", i);
 printf("%d,\t", j);
