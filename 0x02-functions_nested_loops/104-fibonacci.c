@@ -21,7 +21,7 @@ long i = 1;
 long j = 2;
 long l = 3;
 long m = i + j;
-while (l <= 93)
+while (l <= 99)
 {
 long li = i;
 long lin = j;
@@ -82,46 +82,6 @@ j = -j;
 if (m < 0)
 m = -m;
 l += 3;
-}
-long a;
-a = i;
-long s;
-s = j;
-long d;
-d = m;
-while (l <= 99)
-{
-if (a >= 0)
-printf("%ld, ", a);
-else
-printf("%ld, ", -a);
-if (s >= 0)
-{
-if (l < 98)
-printf("%ld, ", s);
-else if (l == 98)
-printf("%ld", s);
-}
-else
-{
-if (l < 98)
-printf("%ld, ", -s);
-else if (l == 98)
-printf("%ld", -s);
-}
-if (d >= 0)
-{
-if (l < 99)
-printf("%ld, ", d);
-}
-else
-{
-if (l < 99)
-printf("%ld, ", -d);
-a = s + d;
-s = a + d;
-d = a + s;
-  l += 3;
 }
 printf("\n");
 return;
