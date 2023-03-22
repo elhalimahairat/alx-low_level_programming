@@ -23,9 +23,9 @@ long l = 0;
 long m = i + j;
 while (l <= 99)
 {
-int li = i;
-int lin = j;
-int lina = m;
+long li = i;
+long lin = j;
+long lina = m;
 if(li >= 0)
 printf("%ld, ", li);
 else
