@@ -54,48 +54,14 @@ else
 if (l < 99)
 printf("%ld, ", -lina);
 }
-if (j >= 0)
-{
-if (m < 0)
-i = j - m;
-}
-else if (j < 0)
-{
-if (m >= 0)
-i = m - j;
-}
-else if ((j < 0) && (m < 0))
-i = (m + j)*(-1);
-else
-i = m + j;
-
-if (i >= 0)
-{
-if (m < 0)
-j = i - m;
-}
-else if (i < 0)
-{
-if (m >= 0)
-j = m - i;
-}
-else if ((i < 0) && (m < 0))
-j = (m + i)*(-1);
-else
-j = m + i;
-if (j >= 0)
-{
 if (i < 0)
-m = j - i;
-}
-else if (j < 0)
-{
-if (i >= 0)
-m = i - j;
-}
-else if ((j < 0) && (i < 0))
-m = (i + j)*(-1);
-else
+i = -i;
+if (j < 0)
+i = -j;
+if (m < 0)
+i = -m;
+i = m + j;
+j = m + i;
 m = i + j;
 l += 3;
 }
