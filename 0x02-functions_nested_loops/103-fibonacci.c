@@ -17,7 +17,7 @@ return (0);
  */
 void Fibonacci_1(void)
 {
-int sum = 0;
+long sum = 0;
 long i = 1;
 long j = 2;
 long l = 4000000;  
