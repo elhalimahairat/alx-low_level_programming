@@ -19,14 +19,14 @@ void Fibonacci_2(void)
 {
 long i = 1;
 long j = 2;
-long l = 0;
+long l = 3;
 long m = i + j;
 while (l <= 99)
 {
 long li = i;
 long lin = j;
 long lina = m;
-if(li >= 0)
+if (li >= 0)
 printf("%ld, ", li);
 else
 printf("%ld, ", -li);
