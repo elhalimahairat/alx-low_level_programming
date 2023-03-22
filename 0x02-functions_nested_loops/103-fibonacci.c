@@ -11,7 +11,7 @@ Fibonacci_1();
 return (0);
 }
 /**
- * Fibonacci - check the code.
+ * Fibonacci_1 - check the code.
  *
  * end in 50.
  */
@@ -20,7 +20,7 @@ void Fibonacci_1(void)
 int sum = 0;
 long i = 1;
 long j = 2;
-lomg l = 4000000;  
+long l = 4000000;  
 long m = i + j;
 do {
 if ((i % 2) = 0)
