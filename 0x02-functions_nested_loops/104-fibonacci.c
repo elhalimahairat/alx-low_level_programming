@@ -83,42 +83,42 @@ if (m < 0)
 m = -m;
 l += 3;
 }
-long li, lin, lina;
+long a, s, d;
 li = i;
 lin = j;
 lina = m;
 while (l <= 99)
 {
-if (li >= 0)
-printf("%ld, ", li);
+if (a >= 0)
+printf("%ld, ", a);
 else
-printf("%ld, ", -li);
+printf("%ld, ", -a);
 if (lin >= 0)
 {
 if (l < 98)
-printf("%ld, ", lin);
+printf("%ld, ", s);
 else if (l == 98)
-printf("%ld", lin);
+printf("%ld", s);
 }
 else
 {
 if (l < 98)
-printf("%ld, ", -lin);
+printf("%ld, ", -s);
 else if (l == 98)
-printf("%ld", -lin);
+printf("%ld", -s);
 }
 if (lina >= 0)
 {
 if (l < 99)
-printf("%ld, ", lina);
+printf("%ld, ", d);
 }
 else
 {
 if (l < 99)
-printf("%ld, ", -lina);
-li = lin + lina;
-lin = li + lina;
-lina = li + lin;
+printf("%ld, ", -d);
+a = s + d;
+s = a + d;
+d = a + s;
   l += 3;
 }
 printf("\n");
