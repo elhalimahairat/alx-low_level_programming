@@ -23,11 +23,11 @@ long j = 2;
 long l = 4000000;  
 long m = i + j;
 do {
-if ((i % 2) = 0)
+if ((i % 2) == 0)
 sum += i;  
-if ((j % 2))
+if ((j % 2) == 0)
 sum += j;  
-if ((m % 2))
+if ((m % 2) == 0)
 sum += m;
 i = j + m;
 j = m + i;
