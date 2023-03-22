@@ -83,9 +83,10 @@ if (m < 0)
 m = -m;
 l += 3;
 }
-long li = i;
-long lin = j;
-long lina = m;
+long li, lin, lina;
+li = i;
+lin = j;
+lina = m;
 while (l <= 99)
 {
 if (li >= 0)
