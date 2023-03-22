@@ -16,9 +16,9 @@ long j = 2;
 long m= 3;
 long h =  1;
 do{
-printf("%d,\t", i);
-printf("%d,\t", j);
-printf("%d,\t\n", m);
+printf("%ld,\t", i);
+printf("%ld,\t", j);
+printf("%ld,\t\n", m);
 i = j + m;
 j = m + i;
 m = i + j;
