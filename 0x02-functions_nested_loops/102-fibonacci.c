@@ -19,7 +19,7 @@ long l = 32951280099;
 long k = 20365011074;
 do{
 printf("%ld, ", i);
-if(j != k);
+if(j != k)
 printf("%ld, ", j);
 else
 printf("%ld", j);
