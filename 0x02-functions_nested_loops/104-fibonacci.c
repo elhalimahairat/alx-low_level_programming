@@ -42,7 +42,7 @@ else
 if (l < 98)
 printf("%ld, ", -lin);
 else if (l == 98)
-printf("%ld", -lin)
+printf("%ld", -lin);
 }
 if (lina >= 0)
 {
