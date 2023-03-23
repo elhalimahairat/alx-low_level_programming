@@ -8,11 +8,6 @@
  */
 int main(void)
 {
-char c;
-
-c = 'A';
-_isupper(c);
-c = 'a';
-_isupper(c);
+_putchar();
 return (0);
 }
