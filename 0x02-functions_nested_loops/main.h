@@ -1,5 +1,5 @@
-#ifndef <main.h>
-#define <main.h>
+#ifndef main.h
+#define main.h
 #include<stdio.h>
 void print__putchar();
 void print_alphabet(void);
