@@ -1,5 +1,5 @@
-#ifndef main
-#define main
+#ifndef MAIN_H
+#define MAIN_H
 #include<stdio.h>
 void print__putchar();
 void print_alphabet(void);
@@ -12,4 +12,4 @@ void print_alphabet(void){
 printf("abcdefghijklmnopqrstuvwxyz\n");
 return;
 }
-#endif
+#endif /*MAIN_H*/
