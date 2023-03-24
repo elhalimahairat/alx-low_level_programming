@@ -16,8 +16,8 @@ while (j < 15)
 printf("%d", i);
 j++;
 }
+printf("\n");
 i++;
 }
-printf("\n");
 return;
 }
