@@ -1,7 +1,32 @@
 #ifndef MAIN_H
 #define MAIN_H
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int _putchar(char c);
+/**
+ * main - hgf
+ *
+ * Return: Aldfgh
+ */
 int _isupper(int c);
+/**
+ * main asdfg
+ *
+ *sdfg
+ */
 int _isdigit(int c);
+/**
+ * main - Entrygsdsgf
+ *
+ * Return: Always 0 (Setr
+ */
 int mul(int a, int b);
-#endif
+/**
+ * maiddfdf
+ *
+ * Return: Always 0 (Success)
+ */
+#endif /*MAIN_H*/
