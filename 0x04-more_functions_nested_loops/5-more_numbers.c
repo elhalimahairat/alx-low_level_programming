@@ -13,7 +13,7 @@ while (i < 10)
 j = 0;
 while (j < 15)
 {
-printf("%d", i);
+printf("%d", j);
 j++;
 }
 printf("\n");
