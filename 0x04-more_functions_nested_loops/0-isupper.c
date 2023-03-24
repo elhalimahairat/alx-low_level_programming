@@ -1,5 +1,8 @@
 #include "main.h"
-
+/*
+*isuooer good
+*yreddsfds
+*/
 int _isupper(int c)
 {
 if ((c >= 65) && (c <= 90))
