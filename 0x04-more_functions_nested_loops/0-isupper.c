@@ -1,10 +1,8 @@
 #include "main.h"
 /**
  * _isupper - Entry point
- * 
  * Description: 'the program's description'
  * @parameter: describe the parameter
- * 
  * Return: Always 0 (Success)
  */
 int _isupper(int c)
