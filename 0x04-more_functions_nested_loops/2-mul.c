@@ -1,11 +1,24 @@
 #include "main.h"
 /**
- * main - Entry point
+ * mul
  *
- * Return: Always 0 (Success)
+ * mul == a*b
+ */
+/**
+ * int b == ?
+ *
+ * int b == ?
  */
 int mul(int a, int b)
 {
+/**
+ * int b == ?
+ *
+ * int b == ?
+ */
+/**
+ * mul x 
+ */
 int mul;
 mul = a * b;
 return (mul);
