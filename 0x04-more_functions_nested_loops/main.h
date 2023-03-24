@@ -29,4 +29,5 @@ int mul(int a, int b);
  *
  * Return: Always 0 (Success)
  */
+void print_numbers(void);
 #endif /*MAIN_H*/
