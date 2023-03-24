@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *main isdifg good
+ * main - Entry point
  *
- *eiht sucsses
+ * Return: Always 0 (Success)
  */
 int _isdigit(int c)
 {
