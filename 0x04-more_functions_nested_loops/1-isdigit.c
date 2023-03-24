@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ *main isdifg good
+ *
+ *eiht sucsses
+ */
 int _isdigit(int c)
 {
 if ((c >= 48) && (c <= 57))
