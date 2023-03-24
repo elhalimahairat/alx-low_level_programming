@@ -1,8 +1,9 @@
 #include "main.h"
-/*
-*isuooer good
-*yreddsfds
-*/
+/**
+ * _isupper - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int _isupper(int c)
  /*
 *isuooer good
