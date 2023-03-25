@@ -19,5 +19,5 @@ m++;
 pirntf("%d\n", n*m);
 }
 }
-return (0);
+return;
 }
