@@ -4,19 +4,17 @@
  * @n: input
  * Return: n-98
  */
-void print_to_98(int n )
+void print_to_98(int n)
 {
-int a = n;
-if (n >= 98)
+if (n > 98)
 {
 while (n > 98)
 {
 printf("%d, ", n);
 n--;
 }
-n = a;
 }
-else
+else if (n < 98)
 {
 while (n < 98)
 {
