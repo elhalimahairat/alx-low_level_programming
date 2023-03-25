@@ -47,9 +47,6 @@ return;
 int convert_day(int month, int day)
 {
 switch (month)
-{
-case 1:
-day = day + 0;
 case 2:
 day = 31 + day;
 break;
