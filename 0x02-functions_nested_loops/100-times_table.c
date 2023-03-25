@@ -13,7 +13,12 @@ m = 0;
 for (i = 0; i < n + 1; i++)
 {
 for (j = 0; j < n; j++)
+{
+if ((n * j) < 10)
 printf("%d,   ", j * m);
+else
+printf("%d,  ", j * m);
+}
 printf("%d\n", n * m);
 if (m != n)
 m++;
