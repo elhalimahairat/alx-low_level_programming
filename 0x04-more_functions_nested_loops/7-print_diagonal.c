@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 int i = 0;
 int j = n;
