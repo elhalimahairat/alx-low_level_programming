@@ -16,7 +16,7 @@ for (j = 0; j < n; j++)
 printf("%d, ", j*m);
 if (m != n)
 m++;
-pirntf("%d\n", n*m);
+printf("%d\n", n*m);
 }
 }
 return;
