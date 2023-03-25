@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <math.h>
 /**
  * main - Entry point
  *
@@ -6,25 +7,15 @@
  */
 int main(void)
 {
-long i = 0;
-long lp;
-while (i < 612852475143)
+int c;
+long num = 612852475143;
+for (c = (int) sqrt(num); c > 2; c++)
 {
-int test = 1;
-long j = 2;
-while (j < i)
+if (num % c == 0)
 {
-if (i % j == 0)
-test = 0;
-j++;
+printf("%d\n", c);
+break;
 }
-if(test == 1)
-{
-if (612852475143 % i == 0)
-lp = i;
 }
-i++;
-}
-printf("%ld\n", lp);
 return (0);
 }
