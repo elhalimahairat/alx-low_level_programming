@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * _isdigit - a function that checks for uppercase character
+ * @c: input
+ * Return: 1 if c is betwin 0-9, 0 otherwise
  */
 int _isdigit(int c)
 {
