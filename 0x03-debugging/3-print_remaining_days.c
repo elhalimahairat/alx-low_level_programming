@@ -82,7 +82,7 @@ case 12:
 day = 334 + day;
 break;
 default:
-break;
 return (day);
 }
+return (day);
 }
