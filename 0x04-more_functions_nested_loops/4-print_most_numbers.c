@@ -2,7 +2,7 @@
 /**
  * print_numbers - a function that prints the numbers, from 0 to 9 except 2 and 4
  *
- * Return: 01356789 followed by newline
+ * Return: 0-9 (except 2 and 4) followed by newline
  */
 void print_most_numbers(void)
 {
