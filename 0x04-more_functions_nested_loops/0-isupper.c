@@ -1,12 +1,8 @@
 #include "main.h"
 /**
- * _isupper - Entry point
- * Description: 'the program's description'
- * @parameter: describe the parameter
- * Return: Always 0 (Success)
- *
- *_isupper hsaahdf return
- * fghjk
+ * _isupper - a function that checks for uppercase character
+ * @c: input
+ * Return: 1 if c is uppercase, 0 otherwise
  */
 int _isupper(int c)
 {
