@@ -82,6 +82,5 @@ day = 334 + day;
 break;
 default:
 break;
-}
 return (day);
 }
