@@ -4,13 +4,16 @@
  * Description: 'the program's description'
  * @parameter: describe the parameter
  * Return: Always 0 (Success)
- */
-/**
+ *
  *_isupper hsaahdf return
  * fghjk
  */
 int _isupper(int c)
 {
+/**
+ *c > A
+ * c < Z
+ */
 if ((c >= 'A') && (c <= 'Z'))
 {
 return (1);
