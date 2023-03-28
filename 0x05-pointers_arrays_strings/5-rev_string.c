@@ -21,6 +21,8 @@ i--;
 s[i] = s[n];
 s[n] = m;
 n++;
+if (s[i] == s[n])
+break;
 }
 return;
 }
