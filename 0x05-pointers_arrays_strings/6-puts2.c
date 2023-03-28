@@ -6,8 +6,11 @@
  */
 void puts2(char *str)
 {
-int i;
-for (i = 0; (str[i] != '\0') && (str[i-1] != '\0'); i += 2)
+int i, n;
+n = 0;
+while (str[n] != '\0')
+n++;
+for (i = 0; i < n; i += 2)
 printf("%c", str[i]);
 printf("\n");
 return;
