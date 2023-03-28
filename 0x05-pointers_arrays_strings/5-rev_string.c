@@ -15,7 +15,7 @@ n = 0;
 while (s[i] != '\0')
 i++;
 i--;
-while (n < (i / 2))
+while (n <= (i / 2))
 {
 m = s[n];
 s[n] = s[i];
