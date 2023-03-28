@@ -13,18 +13,19 @@ i = 0;
 n = 0;
 while (s[i] != '\0')
 i++;
-char l[i / 2];
+char *lina;
+lina = "aaaaaaaaaaaaaaaaaaaaaaaaaaa";
 while (i != 0)
 {
 i--;
-if (n <= (i / 2))
+if (n <= i/2)
 {
-l[n] = s[i];
+lina[n] = s[i];
 s[i] = s[n];
+n++;
 }
 else
-s[i] = l[i];
-n++;
+s[i] = lina[i];
 }
 return;
 }
