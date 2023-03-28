@@ -11,8 +11,14 @@ n = 0;
 while (str[n] != '\0')
 n++;
 l = n;
-for (i = l / 2; i < l; i++)
+if (l % 2 == 0)
 {
+for (i = l / 2; i < l; i++)
+printf("%c", str[i]);
+}
+else
+{
+for (i = (l - 1) / 2; i < l; i++)
 printf("%c", str[i]);
 }
 printf("\n");
