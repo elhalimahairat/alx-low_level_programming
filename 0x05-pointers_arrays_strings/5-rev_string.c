@@ -14,12 +14,13 @@ i = 0;
 n = 0;
 while (s[i] != '\0')
 i++;
+i--;
 while (n < (i / 2))
 {
+m = s[n];
+s[n] = s[i];
+s[i] = m;
 i--;
-m = s[i];
-s[i] = s[n];
-s[n] = m;
 n++;
 }
 return;
