@@ -14,10 +14,10 @@ i = 0;
 n = 0;
 while (s[i] != '\0')
 i++;
-while ((i != 0) && (n != i) &&(n <= (i / 2)))
+while (n < (i / 2))
 {
 i--;
-m = s[n];
+m = s[i];
 s[i] = s[n];
 s[n] = m;
 n++;
