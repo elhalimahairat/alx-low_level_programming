@@ -4,7 +4,7 @@
  *
  *@s : array
  *
- *Return : size of s (size)
+ *Return: size of s (size)
  */
 int _strlen(char *s)
 {
