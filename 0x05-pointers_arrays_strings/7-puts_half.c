@@ -18,8 +18,8 @@ printf("%c", str[i]);
 }
 else
 {
-for (i = (l - 1) / 2; i < l; i++)
-printf("%c", str[i]);
+for (i = (l - 1) / 2; i < l - 1; i++)
+printf("%c", str[i + 1]);
 }
 printf("\n");
 return;
