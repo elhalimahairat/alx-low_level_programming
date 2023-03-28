@@ -12,7 +12,7 @@ int i;
 i = 0;
 while (s[i] != '\0')
 i++;
-while ([i] != 0)
+while (i != 0)
 {
 i--;
 printf("%c", s[i]);
