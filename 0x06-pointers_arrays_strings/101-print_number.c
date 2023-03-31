@@ -17,4 +17,5 @@ void print_number(int n)
 		n1 = n;
 	}
 	_putchar((n1 % 10) + '0');
+return;
 }
