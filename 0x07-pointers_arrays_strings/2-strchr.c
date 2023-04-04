@@ -15,7 +15,7 @@ while (1)
      a = *s++;
      if (a == c)
 	     return (s - 1);
-     else
+     if (a == 0)
 	     return (NULL);
    }
 }
