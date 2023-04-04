@@ -9,22 +9,14 @@
  */
 char *_strchr(char *s, char c)
 {
-char *f;
-int i ,a;
-a = 0;
-for (i = 0; s[i] != '\0'; i++)
-{
-if ( s[i] != c)
-	break;
-}
-if (s[i] != '\0')
-    {
-    for (; s[i] != '\0'; i++)
-       {
-          s[a] = s[i];
-          a++;
-       }
-    }
-return (f);
+int a;
+while (1)
+   {
+     a = *s++;
+     if (a == c)
+	     return (s - 1);
+     else
+	     return (NULL);
+   }
 }
 
